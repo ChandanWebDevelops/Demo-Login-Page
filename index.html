@@ -100,31 +100,18 @@ outline-color:#1d79c9;
       </form>
     </div>
   </body>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+	<script>
+	const a1 = document.getElementById("password");
+	const a2 = document.getElementById("check");
+	
+	a2.addEventListener('click', function(){
+		if(a1.type == 'password'){
+			a1.type='text';
+		}else{
+			a1.type = 'password';
+		}
+	})
+	</script>
   
   
 </html>
